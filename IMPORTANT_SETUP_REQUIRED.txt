@@ -1,0 +1,28 @@
+⚠️  IMPORTANT: Manual Setup Required
+
+The .env.local file could not be created automatically due to gitignore restrictions.
+
+YOU MUST CREATE THIS FILE MANUALLY:
+
+1. Navigate to: /Users/nitingupta/OfficeStuff/Codebase/link/
+
+2. Create a file named: .env.local
+
+3. Add the following content:
+
+# Backend API Configuration
+NEXT_PUBLIC_API_BASE_URL=http://localhost:3000
+
+# Rocketium API Credentials
+SESSION_ID=6918d71717b8b134e625eefd
+USER_ID=5eeafcb22164e02998b90a1e
+TEAM_ID=64f1f74d68a2d493d311b12f
+
+4. Save the file
+
+5. Run: npm run dev
+
+The app will then start on http://localhost:6969
+
+For more details, see ENV_SETUP.md
+
